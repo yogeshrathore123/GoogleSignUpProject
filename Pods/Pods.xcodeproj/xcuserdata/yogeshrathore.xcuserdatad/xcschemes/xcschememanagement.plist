@@ -4,12 +4,32 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>GTMOAuth2.xcscheme</key>
+		<key>FirebaseAnalytics.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>FirebaseCore.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>FirebaseInstanceID.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>GTMSessionFetcher.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Google.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>GoogleSignIn.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -36,37 +56,6 @@
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>107A9565F9DF88517DFD3E28C05B2B96</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>41D80A28E45D7C5D5953EE8F92537FA5</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>681BE6E3D02A43F9BA63777AC435C8FD</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>905C9F466059AE17CF95F4A251E6F99E</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>B1C4AAFAF49036C7007633DAA3C806AD</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F1503BD977576CAA15AE7DF9A89E3246</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-	</dict>
+	<dict/>
 </dict>
 </plist>

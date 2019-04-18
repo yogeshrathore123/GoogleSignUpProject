@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "41D80A28E45D7C5D5953EE8F92537FA5"
+               BlueprintIdentifier = "82AF367939A4EDAED3A1EC3E28AF2EB3"
                BuildableName = "Pods_GoogleSignUpProjectUITests.framework"
                BlueprintName = "Pods-GoogleSignUpProjectUITests"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "41D80A28E45D7C5D5953EE8F92537FA5"
+            BlueprintIdentifier = "82AF367939A4EDAED3A1EC3E28AF2EB3"
             BuildableName = "Pods_GoogleSignUpProjectUITests.framework"
             BlueprintName = "Pods-GoogleSignUpProjectUITests"
             ReferencedContainer = "container:Pods.xcodeproj">
