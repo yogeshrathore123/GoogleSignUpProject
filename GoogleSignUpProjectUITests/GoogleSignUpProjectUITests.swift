@@ -3,7 +3,7 @@
 //  GoogleSignUpProjectUITests
 //
 //  Created by Yogesh Rathore on 26/06/17.
-//  Copyright © 2017 Sybrant Technologies. All rights reserved.
+//  Copyright © 2022 Yogesh Rathore. All rights reserved.
 //
 
 import XCTest
