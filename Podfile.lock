@@ -32,7 +32,7 @@ DEPENDENCIES:
   - Google/SignIn
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - FirebaseAnalytics
     - FirebaseCore
     - FirebaseInstanceID
@@ -50,6 +50,6 @@ SPEC CHECKSUMS:
   GoogleToolboxForMac: ff31605b7d66400dcec09bed5861689aebadda4d
   GTMSessionFetcher: 32aeca0aa144acea523e1c8e053089dec2cb98ca
 
-PODFILE CHECKSUM: 2b419ae4410b4323ff7df91f6ca5d569f4a072b8
+PODFILE CHECKSUM: e433c1c3a7fc23d56a0b76d06cbd2d2c32ae3f69
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.11.3

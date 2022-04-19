@@ -21,7 +21,6 @@
 		ABE8D0E81F013152008E9510 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE8D0E71F013152008E9510 /* StoreKit.framework */; };
 		ABE8D0EA1F01315C008E9510 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE8D0E91F01315C008E9510 /* SystemConfiguration.framework */; };
 		ABE8D0EC1F013167008E9510 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE8D0EB1F013167008E9510 /* AddressBook.framework */; };
-		ED131D180E81F448898748C7 /* Pods_GoogleSignUpProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB2859F18F6EE2670BD67675 /* Pods_GoogleSignUpProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,7 +79,6 @@
 				ABE8D0EC1F013167008E9510 /* AddressBook.framework in Frameworks */,
 				ABE8D0EA1F01315C008E9510 /* SystemConfiguration.framework in Frameworks */,
 				ABE8D0E81F013152008E9510 /* StoreKit.framework in Frameworks */,
-				ED131D180E81F448898748C7 /* Pods_GoogleSignUpProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +256,7 @@
 				TargetAttributes = {
 					ABE8D0AD1F00E804008E9510 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = E7PG6R4RE6;
+						DevelopmentTeam = R36X7P8799;
 						ProvisioningStyle = Automatic;
 					};
 					ABE8D0C11F00E804008E9510 = {
@@ -530,7 +528,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -583,7 +581,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -596,13 +594,17 @@
 			baseConfigurationReference = F45276024BFC2906091D88AD /* Pods-GoogleSignUpProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = E7PG6R4RE6;
-				ENABLE_BITCODE = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R36X7P8799;
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				INFOPLIST_FILE = GoogleSignUpProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sybrant.GoogleSignUpProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yogeshrathore.GoogleSignUpProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_DISABLE_SAFETY_CHECKS = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "GoogleSignUpProject/GoogleSignUpProject-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -614,13 +616,16 @@
 			baseConfigurationReference = 84E0D4AC9C130A6559E16EBC /* Pods-GoogleSignUpProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = E7PG6R4RE6;
-				ENABLE_BITCODE = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R36X7P8799;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = GoogleSignUpProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sybrant.GoogleSignUpProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yogeshrathore.GoogleSignUpProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_DISABLE_SAFETY_CHECKS = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "GoogleSignUpProject/GoogleSignUpProject-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
